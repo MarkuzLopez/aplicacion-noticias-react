@@ -3,6 +3,7 @@ import './App.css';
 import Header from './componentes/Header';
 import Noticias from './componentes/Noticias';
 import Fromulario from './componentes/Formulario';
+import Footer from './componentes/Footer';
 
 class App extends Component {
 
@@ -46,6 +47,7 @@ class App extends Component {
             noticias={this.state.noticias}
           />
         </div>
+        <Footer />
       </div>
     );
   }
